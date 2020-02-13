@@ -166,7 +166,6 @@ class SmartTwoControl:
                 print(f'Embarcando no veiculo: {self.translate_labels(substract(current_rhs, next_rhs))}')
                 print(f'Veiculo chegou no terminal')
 
-
     def run(self):
         graph = self.build_graph()
         path = self.find_path(graph)
